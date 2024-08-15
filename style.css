@@ -16,7 +16,7 @@ body {
   align-items: center;
   font-family: "Kanit", sans-serif;
   font-style: normal;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .inicio {
