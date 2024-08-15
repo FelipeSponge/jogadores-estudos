@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  min-height: 100vh;
+  background: rgb(143, 186, 182);
+  background: linear-gradient(
+    0deg,
+    rgba(143, 186, 182, 1) 0%,
+    rgba(71, 217, 51, 1) 100%
+  );
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  height: 100vh;
+}
+
+.inicio {
+  padding: 6rem 4rem;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.inicio__titulo {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.inicio__botao-comecar {
+  background-color: rgba(71, 217, 51, 1);
+  color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+.inicio__botao-comecar:active {
+  background-color: rgb(63, 145, 52);
+}
+
+.principal__tempo {
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.conteudo {
+  padding: 2rem 1rem;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.conteudo__imagem {
+  height: 300px;
+  width: 250px;
+}
+
+.conteudo__descricao {
+  font-weight: 500;
+  font-size: 29px;
+}
+
+.conteudo__nome-jogador {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.conteudo__opcoes-resposta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.opcoes-resposta--botao {
+  background-color: #8fbab6;
+  width: 300px;
+  padding: 0.5rem 0;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.opcoes-resposta--botao:active {
+  background-color: #737e7d;
+}
+
+.final {
+  padding: 2rem 3rem;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.final__titulo {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.final__descricao {
+  font-size: 35px;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+
+.final__resultado {
+  margin: 2.5rem 0;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.final__botao {
+  background-color: rgba(71, 217, 51, 1);
+  color: white;
+  padding: 0.5rem 4rem;
+  border-radius: 20px;
+  margin-top: 2rem;
+  font-size: 40px;
+}
+
+.final__botao:active {
+  background-color: rgb(63, 145, 52);
+}

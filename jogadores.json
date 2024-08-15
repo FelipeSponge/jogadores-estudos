@@ -1,0 +1,79 @@
+{
+  "jogadores": [
+    {
+      "id": 1,
+      "nome": "Cristiano Ronaldo",
+      "imagem": "/imagens/cristiano-ronaldo.jpg",
+      "opcoes": ["Real Madrid", "Milan", "Juventus", "Al-Nassr"],
+      "time": "Al-Nassr"
+    },
+    {
+      "id": 2,
+      "nome": "Kevin De Bruyne",
+      "imagem": "/imagens/de-bruyne.jpg",
+      "opcoes": ["Manchester United", "Manchester City", "Barcelona", "Porto"],
+      "time": "Manchester City"
+    },
+    {
+      "id": 3,
+      "nome": "Alphonso Davies",
+      "imagem": "/imagens/AlphonsoDavies.jpg",
+      "opcoes": ["Bayern Munique", "Juventus", "Liverpool", "Inter de Milão"],
+      "time": "Bayern Munique"
+    },
+    {
+      "id": 4,
+      "nome": "Victor Osimhen",
+      "imagem": "/imagens/omishen.jpg",
+      "opcoes": ["Arsenal", "Inter de Milão", "Napoli", "Aston Villa"],
+      "time": "Napoli"
+    },
+    {
+      "id": 5,
+      "nome": "Douglas Luiz",
+      "imagem": "/imagens/douglas.jpg",
+      "opcoes": ["Aston Villa", "Manchester City", "Juventus", "Girona"],
+      "time": "Juventus"
+    },
+    {
+      "id": 6,
+      "nome": "Marcus Thuram",
+      "imagem": "/imagens/marcus.jpg",
+      "opcoes": ["PSG", "Borussia Dortmund", "Inter de Milão", "Girona"],
+      "time": "Inter de Milão"
+    },
+    {
+      "id": 7,
+      "nome": "Nicolò Zaniolo",
+      "imagem": "/imagens/nicolo.jpg",
+      "opcoes": [
+        "Manchester United",
+        "Real Sociedad",
+        "Inter de Milão",
+        "Atalanta"
+      ],
+      "time": "Atalanta"
+    },
+    {
+      "id": 8,
+      "nome": "Christian Pulisic",
+      "imagem": "/imagens/pulisic.jpg",
+      "opcoes": ["Chelsea", "Borussia Dortmund", "RB Leipzig", "Atalanta"],
+      "time": "Milan"
+    },
+    {
+      "id": 9,
+      "nome": "Riccardo Orsolini",
+      "imagem": "/imagens/orsolini.jpg",
+      "opcoes": ["Chelsea", "Juventus", "RB Leipzig", "Bologna"],
+      "time": "Bologna"
+    },
+    {
+      "id": 10,
+      "nome": "Emerson Royal",
+      "imagem": "/imagens/royal.jpg",
+      "opcoes": ["Bayern Munique", "Bologna", "Milan", "Borussia Dortmund"],
+      "time": "Milan"
+    }
+  ]
+}
